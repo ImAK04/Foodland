@@ -1,0 +1,183 @@
+/* General styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(249, 215, 203);
+    color: #333;
+    font-size: 20px;
+}
+
+img{
+    width: 100%;
+    height: 400px;
+    padding:0;
+    margin: 0;
+    opacity: 90%;
+}
+
+/*Logo Styles*/
+.logo{
+    width: 100px;
+    height: auto;
+    position: absolute;
+    top: 5px;
+    left:15px
+ }
+
+.logo img{
+    float: left;
+    width: 175px;
+    height: 175px;
+    opacity: 100%;
+}
+
+/*Font Style */
+.ga-maamli-regular {
+    font-family: "Ga Maamli", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+/* Container General Styles */
+.container {
+    width:85%;
+    margin: auto;
+    overflow: auto;
+    text-align: center;
+}
+
+.container img{
+    border-bottom: 3px solid black;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding:0;
+}
+
+/*Header Styles */
+header{
+    background:rgb(229, 62, 2);
+    color: #fff;
+    text-align: center;
+}
+
+header h1{
+    font-family: "Ga Maamli", sans-serif;
+    font-size: 75px;
+    margin-top: 10px;
+    margin-bottom: 0%;
+}
+
+header nav ul li{
+    display: inline;
+}
+
+header a{
+    color: white;
+    margin-inline: 27px;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+header a:hover{
+    background-color: rgb(255, 128, 0);
+    border-radius: 45%;
+    padding: 10px;
+}
+
+/*Marque styles */
+
+.marquee {
+    display: flex;
+    justify-content:none ;
+    max-width: 100%;
+    max-height: 100%;
+    overflow: hidden;
+}
+
+.marquee img{
+    width: 600px;
+}
+
+.track {
+   position: relative;
+   white-space: nowrap;
+   will-change: transform;
+   animation: marquee 10s linear infinite;
+}
+  
+ @keyframes marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-38%); }
+  }
+  
+
+/* List Styles */
+.list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.list button {/*for the special buttons */
+    padding: 0;
+    box-shadow: 0 0 5px #333;
+    background-color: white;
+    
+}
+
+/* Mode styles */
+.mode{
+    padding: 10px;
+}
+
+.mode img{
+    width:300px;
+    height: 300px;
+}
+
+
+/* Products styles */
+.product{
+    padding: 10px;
+}
+
+.product img{
+    width:110px;
+    height: 115px;
+}
+
+/* Offer styles */
+.offer{
+    padding: 10px;
+}
+
+.offer img{
+    width:350px;
+    height: 350px;
+}
+
+/* General Button styles */
+button{
+    border: 2px solid black;
+    border-radius: 20px;
+    padding:6px;
+}
+
+button:hover{
+    background-color:rgb(248, 94, 38);
+}
+
+/* Footer styles */
+footer {
+    background:rgb(229, 62, 2);
+    color: #fff;
+    padding: 1px;
+    margin-top: 10px;
+}
+
+footer li{
+    text-align: right;
+    padding-right: 30px;
+}
